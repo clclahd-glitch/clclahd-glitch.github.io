@@ -67,11 +67,11 @@
       "platform": "toss",
       "status": "wait",
       "name": "신라면",
-      "configuration": "20봉",
+      "configuration": "120g × 20개",
       "price": 14454,
       "unit": "1봉 약 723원",
       "reason": "운영자 판단: 더 낮았던 특가가 있어 쟁이기는 기다림. 과거 가격 근거는 추가 확인 예정.",
-      "link": "",
+      "link": "https://toss.shopping/_m/nbi5Fxb1",
       "image": ""
     },
     {
@@ -119,7 +119,7 @@
       "price": 5980,
       "unit": "100ml당 598원",
       "reason": "가격 추적 화면에 역대급최저가 표시. 네이버 비교가 10,480원보다 4,500원 낮음.",
-      "link": "",
+      "link": "https://link.coupang.com/a/hucr1MaUrQ",
       "image": ""
     },
     {
@@ -131,7 +131,7 @@
       "price": 20900,
       "unit": "1개 10,450원",
       "reason": "제공된 2개월 가격 그래프 최저가. 같은 기간 최고가 28,800원보다 7,900원 낮음.",
-      "link": "",
+      "link": "https://link.coupang.com/a/hub6AUxCWi",
       "image": ""
     },
     {
@@ -143,7 +143,7 @@
       "price": 2290,
       "unit": "100g 약 286원",
       "reason": "제공된 2개월 가격 그래프 최저가. 같은 기간 최고가 3,180원보다 890원 낮음.",
-      "link": "",
+      "link": "https://link.coupang.com/a/huciPJI2aO",
       "image": ""
     },
     {
@@ -155,7 +155,7 @@
       "price": 3640,
       "unit": "1봉 910원",
       "reason": "제공된 2개월 가격 그래프 최저가. 기간 평균가 5,070원보다 1,430원 낮음.",
-      "link": "",
+      "link": "https://link.coupang.com/a/hudNax1YYu",
       "image": ""
     },
     {
@@ -167,7 +167,7 @@
       "price": 8710,
       "unit": "100ml당 1,742원",
       "reason": "가격 알림 당시 6,940원보다 1,770원 높음. 급하지 않으면 다음 가격 하락 기다림.",
-      "link": "",
+      "link": "https://link.coupang.com/a/hucZ3Kj4nI",
       "image": ""
     }
   ]
