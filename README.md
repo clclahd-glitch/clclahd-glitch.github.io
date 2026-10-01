@@ -1,24 +1,19 @@
 # 오늘 사도 됨? | 가격판정
 
-사이트: https://clclahd-glitch.github.io/
+https://clclahd-glitch.github.io/
 
-매일 products.json 파일만 수정합니다. index.html은 디자인과 자동 카드 생성 코드입니다.
+매일 products.json만 수정합니다. index.html은 고정 화면 코드입니다.
 
-- date: 실제 가격 확인일 (YYYY-MM-DD). 상단 요약 날짜입니다.
-- chatUrl: 오픈채팅 주소
-- products: 표시할 상품 목록. 순서대로 표시됩니다.
-- 상품 date: 해당 상품 가격 확인일
-- platform: toss 또는 coupang
-- status: buy (사도 됨), wait (기다림), pass (PASS), hold (판정 보류)
-- name / configuration: 상품명 / 용량과 수량
-- price: 원 단위 숫자, 쉼표 없이 입력
-- unit: 개당가 표시 문구. 구성 변경 시 다시 계산합니다.
-- reason: 판정 이유. 비교가와 가격이력의 기간/근거를 정확히 적습니다.
-- link: 본인의 제휴 구매 링크. 미확보 시 빈 문자열 유지
-- image: 상품 이미지 HTTPS 주소. 미확보 시 빈 문자열 유지
+- date: 실제 확인 날짜 YYYY-MM-DD
+- chatUrl: 오픈채팅 URL
+- products: 상품 배열
+- 각 상품의 date / platform(toss,coupang) / status(buy,wait,pass,hold)
+- name / configuration / price(쉼표 없는 숫자) / unit(개당가 문구)
+- image: 사진 HTTPS 주소
+- link: 본인 제휴 링크
+- comparison: 비교 근거와 가격이력 기간
+- reason: 판정 이유 한 줄
 
-상품 수와 판정별 수는 실제 데이터에서 자동 계산됩니다. 날짜와 가격을 자동 갱신하거나 수집하는 기능은 없습니다.
+GitHub에서 products.json → 연필 버튼 → 수정 → Commit changes. 요약 개수와 카드는 자동으로 계산됩니다. 날짜/가격 수집은 자동화되어 있지 않습니다. 구성 변경 시 개당가도 다시 계산합니다.
 
-JSON 문법: 각 필드와 상품 사이 쉼표, 문자열 큰따옴표를 유지하고 마지막 항목 뒤에는 쉼표를 넣지 않습니다. GitHub에서 products.json을 연 뒤 연필 버튼으로 수정하고 Commit changes로 저장하면 Pages에 반영됩니다.
-
-2026-10-01 데이터는 운영자가 제공한 가격/캡처/판정 기준입니다. 토스 사도 됨 판정은 구성과 개당가에 대한 운영자 판단이며 별도 시장 최저가 검증을 뜻하지 않습니다. 신라면과 올리브오일의 과거 특가 근거는 확인 예정입니다. 쿠팡 상품과 신라면의 구매 링크, 쿠팡 사진은 추가 입력이 필요합니다. 윤서의달밤은 비교 근거 미확보로 보류입니다.
+2026-10-01 목록: 13개, 사도 됨 10 / 기다림 3 / PASS 0. 링크 모두 입력됨. 쿠팡 사진은 추가 연결 필요. 토스 판정은 제공된 구성/개당가에 대한 운영자 판단입니다. 과거 특가 근거 미확보 사항은 비교 근거에 표시했습니다.
