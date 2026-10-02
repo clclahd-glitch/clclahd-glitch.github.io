@@ -29,7 +29,7 @@ function render(data,historical=false){
  const top=(data.topDeals||[]).map(n=>ps.find(p=>p.name===n&&p.status==='buy')).filter(Boolean).slice(0,3);
  const count=ps.filter(p=>p.status==='buy').length;
  const open=ps.filter(p=>p.midnightOpen===true).length;
- const summary='<h2>'+month+'/'+day+' 오늘의 가격판정</h2><p class="total">'+ps.length+'개 확인</p><div class="counts"><span>🟢 사도 됨 '+count+'개</span><span>🔴 지금은 PASS '+(ps.length-count)+'개</span></div>'+(open?'<p class="open-count">⏰ 오늘 00:00 오픈 상품 '+open+'개</p>':'');
+ const summary='<h2>'+month+'/'+day+' 오늘의 가격판정</h2><p class="total">'+ps.length+'개 확인</p><div class="counts"><span>🟢 사도 됨 '+count+'개</span><span>🔴 지금은 PASS '+(ps.length-count)+'개</span></div>'+(open?'<p class="open-count">⏰ '+month+'/'+day+' 00:00 오픈 상품 '+open+'개</p>':'');
  let products='<section><h2 class="section-title">오늘의 TOP 3</h2><div class="top-grid">'+top.map(p=>card(p,data.date,historical)).join('')+'</div></section>';
  products+='<section><h2 class="section-title">'+month+'/'+day+' 🟢 사도 됨</h2><p class="muted">TOP 3 포함 총 '+count+'개 · 아래는 나머지 상품입니다.</p>'+ps.filter(p=>p.status==='buy'&&!top.includes(p)).map(p=>card(p,data.date,historical)).join('')+'</section>';
  products+='<section><h2 class="section-title">🔴 지금은 PASS</h2>'+ps.filter(p=>p.status!=='buy').map(p=>card(p,data.date,historical)).join('')+'</section>';
