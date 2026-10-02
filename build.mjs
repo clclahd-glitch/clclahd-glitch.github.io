@@ -15,7 +15,7 @@ function card(p){
 const ps=d.products;
 const top=(d.topDeals||[]).map(name=>ps.find(p=>p.name===name&&p.status==='buy')).filter(Boolean).slice(0,3);
 const date=d.date.split('-');
-const summary='<h2>'+Number(date[1])+'/'+Number(date[2])+' 오늘 '+ps.length+'개 가격판정</h2><div class="counts">'+['buy','pass'].map(s=>'<span>'+e(labels[s])+' '+ps.filter(p=>p.status===s).length+'개</span>').join('')+'</div>';
+const summary='<h2>'+Number(date[1])+'/'+Number(date[2])+' 오늘 '+ps.length+'개 확인</h2><div class="counts">'+['buy','pass'].map(s=>'<span>'+e(labels[s])+' '+ps.filter(p=>p.status===s).length+'개</span>').join('')+'</div>';
 let products='<section><h2 class="section-title">오늘의 TOP 3</h2><div class="top-grid">'+top.map(card).join('')+'</div></section>';
 const rest=ps.filter(p=>p.status==='buy'&&!top.includes(p));
 products+='<section><h2 class="section-title">🟢 오늘의 사도 됨</h2><p class="muted">TOP 3 포함 총 '+ps.filter(p=>p.status==='buy').length+'개 · 아래는 나머지 상품입니다.</p>'+rest.map(card).join('')+'</section>';
