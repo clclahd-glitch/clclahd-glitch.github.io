@@ -2,7 +2,7 @@ import {readFileSync,writeFileSync,readdirSync,mkdirSync} from 'node:fs';
 const current=JSON.parse(readFileSync('products.json','utf8'));
 const e=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const url=s=>{try{const u=new URL(s);return u.protocol==='https:'?e(u.href):''}catch{return ''}};
-const photoUrl=s=>/^\/assets\/products\/[a-z0-9-]+\.svg$/.test(s||'')?e(s):url(s);
+const photoUrl=s=>/^\/assets\/products\/(?:[0-9]{4}-[0-9]{2}-[0-9]{2}\/)?[a-z0-9-]+\.(?:svg|jpg|png|webp)$/.test(s||'')?e(s):url(s);
 const labels={buy:'🟢 사도 됨',pass:'🔴 지금은 PASS'};
 const notices={toss:'✱ 이 포스팅은 토스쇼핑 쉐어링크 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.',coupang:'쿠팡파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받을 수 있습니다.'};
 mkdirSync('archives',{recursive:true});
@@ -12,7 +12,7 @@ const all=[...archives.filter(a=>a.date!==current.date),current];
 function card(p,date,historical){
  const status=p.status==='buy'?'buy':'pass';
  if(!Number.isFinite(p.price)||p.price<0)throw Error('Invalid price: '+p.name);
- const photo=photoUrl(p.image)?'<img class="photo" loading="lazy" width="90" height="90" src="'+photoUrl(p.image)+'" alt="'+e(p.name)+'" onerror="this.hidden=true">':'';
+ const photo=photoUrl(p.image)?'<img class="photo" loading="lazy" width="110" height="110" src="'+photoUrl(p.image)+'" alt="'+e(p.name)+'" onerror="this.hidden=true">':'';
  const parts=date.split('-');
  const open=p.midnightOpen===true;
  const badge=open?'<span class="open-badge">⏰ '+Number(parts[1])+'/'+Number(parts[2])+' 00:00 OPEN</span>':'';
