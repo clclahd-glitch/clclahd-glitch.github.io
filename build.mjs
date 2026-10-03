@@ -1,4 +1,4 @@
-import {readFileSync,writeFileSync,readdirSync,mkdirSync} from 'node:fs';
+import {readFileSync,writeFileSync,readdirSync,mkdirSync,existsSync} from 'node:fs';
 const current=JSON.parse(readFileSync('products.json','utf8'));
 const e=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const url=s=>{try{const u=new URL(s);return u.protocol==='https:'?e(u.href):''}catch{return ''}};
@@ -9,10 +9,11 @@ mkdirSync('archives',{recursive:true});
 const archives=readdirSync('archives').filter(f=>/^\d{4}-\d{2}-\d{2}\.json$/.test(f)).map(f=>JSON.parse(readFileSync('archives/'+f,'utf8')));
 writeFileSync('archives/'+current.date+'.json',JSON.stringify(current,null,2)+'\n');
 const all=[...archives.filter(a=>a.date!==current.date),current];
+function displayPhoto(p){return p.date==='2026-10-04'&&['softener','detergent','montecristo','lipbalm','tablet','shrimp'].includes(p.id)?photoUrl(p.image.replace(/\.webp$/,'.svg')):photoUrl(p.image);}
 function card(p,date,historical){
  const status=p.status==='buy'?'buy':'pass';
  if(!Number.isFinite(p.price)||p.price<0)throw Error('Invalid price: '+p.name);
- const photo=photoUrl(p.image)?'<img class="photo" loading="lazy" width="110" height="110" src="'+photoUrl(p.image)+'" alt="'+e(p.name)+'" onerror="this.hidden=true">':'';
+ const photo=photoUrl(p.image)?'<img class="photo" loading="lazy" width="110" height="110" src="'+displayPhoto(p)+'" alt="'+e(p.name)+'" onerror="this.hidden=true">':'';
  const parts=date.split('-');
  const open=p.midnightOpen===true;
  const badge=open?'<span class="open-badge">⏰ '+Number(parts[1])+'/'+Number(parts[2])+' 00:00 OPEN</span>':'';
@@ -23,6 +24,16 @@ function card(p,date,historical){
  const action=url(p.link)?'<a class="buy-link" target="_blank" rel="'+(p.affiliate===false?'':'sponsored ')+'noopener noreferrer" href="'+url(p.link)+'">'+button+'</a>':'';
  return '<article class="card '+status+'"><span class="badge">'+labels[status]+'</span>'+badge+'<div class="product-head">'+photo+'<h3>'+e(p.name)+'</h3>'+(p.configuration?'<div class="config">'+e(p.configuration)+'</div>':'')+'<div class="price">'+p.price.toLocaleString('ko-KR')+'원</div></div><div class="price-facts"><strong>💸 가격 한눈에</strong>'+facts.map(s=>'<p>'+e(s)+'</p>').join('')+'</div>'+info+action+disclosure+'</article>';
 }
+function row(p){
+ const facts=p.priceFacts||[p.unit,p.comparison].filter(Boolean);
+ const last=facts.at(-1)||'';
+ const m=last.match(/^(.*?) [\d,]+원 · ([\d,]+원)(↓| 차이)$/);
+ const fact=m?m[1]+(m[3]==='↓'?'보다 ':'와 ')+m[2]+m[3]:(facts[0]||'');
+ const photo=photoUrl(p.image)?'<img class="row-photo" loading="lazy" width="96" height="96" src="'+displayPhoto(p)+'" alt="'+e(p.name)+'" onerror="this.hidden=true">':'';
+ const body=photo+'<div class="row-info"><span class="badge">'+labels[p.status==='buy'?'buy':'pass']+'</span><h3>'+e(p.name)+'</h3><div class="row-prices"><span>'+e(fact)+'</span><strong>'+p.price.toLocaleString('ko-KR')+'원</strong></div>'+(p.affiliate===false?'<small>수수료 없는 정보딜</small>':'')+'</div><span class="row-arrow" aria-hidden="true">›</span>';
+ return '<article class="deal-row '+(p.status==='buy'?'buy':'pass')+'">'+(url(p.link)?'<a href="'+url(p.link)+'" target="_blank" rel="'+(p.affiliate===false?'':'sponsored ')+'noopener noreferrer">'+body+'</a>':'<div class="row-body">'+body+'</div>')+'</article>';
+}
+function listDisclosure(ps){return [...new Set(ps.filter(p=>p.affiliate!==false).map(p=>p.platform))].map(k=>'<p class="affiliate list-disclosure">'+e(notices[k]||'')+'</p>').join('');}
 function render(data,historical=false){
  const ps=data.products;
  const [year,month,day]=data.date.split('-').map(Number);
@@ -31,8 +42,8 @@ function render(data,historical=false){
  const open=ps.filter(p=>p.midnightOpen===true).length;
  const summary='<h2>'+month+'/'+day+' 오늘의 가격판정</h2><p class="total">'+ps.length+'개 확인</p><div class="counts"><span>🟢 사도 됨 '+count+'개</span><span>🔴 지금은 PASS '+(ps.length-count)+'개</span></div>'+(open?'<p class="open-count">⏰ '+month+'/'+day+' 00:00 오픈 상품 '+open+'개</p>':'');
  let products='<section><h2 class="section-title">오늘의 TOP 3</h2><div class="top-grid">'+top.map(p=>card(p,data.date,historical)).join('')+'</div></section>';
- products+='<section><h2 class="section-title">'+month+'/'+day+' 🟢 사도 됨</h2><p class="muted">TOP 3 포함 총 '+count+'개 · 아래는 나머지 상품입니다.</p>'+ps.filter(p=>p.status==='buy'&&!top.includes(p)).map(p=>card(p,data.date,historical)).join('')+'</section>';
- products+='<section><h2 class="section-title">🔴 지금은 PASS</h2>'+ps.filter(p=>p.status!=='buy').map(p=>card(p,data.date,historical)).join('')+'</section>';
+ products+='<section><h2 class="section-title">'+month+'/'+day+' 🟢 사도 됨</h2><p class="muted">TOP 3 포함 총 '+count+'개 · 아래는 나머지 상품입니다.</p>'+(historical?ps.filter(p=>p.status==='buy'&&!top.includes(p)).map(p=>card(p,data.date,historical)).join(''):listDisclosure(ps.filter(p=>p.status==='buy'&&!top.includes(p)))+ps.filter(p=>p.status==='buy'&&!top.includes(p)).map(row).join(''))+'</section>';
+ products+='<section><h2 class="section-title">🔴 지금은 PASS</h2>'+(historical?ps.filter(p=>p.status!=='buy').map(p=>card(p,data.date,historical)).join(''):listDisclosure(ps.filter(p=>p.status!=='buy'))+ps.filter(p=>p.status!=='buy').map(row).join(''))+'</section>';
  const list=all.filter(a=>a.date!==current.date).sort((a,b)=>b.date.localeCompare(a.date));
  const archiveLinks='<section class="principles"><h2>📅 지난 가격판정</h2>'+list.map(a=>{const [,m,d]=a.date.split('-').map(Number);return '<p><a href="/'+a.date+'/">'+m+'/'+d+' 가격판정 보기 →</a></p>'}).join('')+'</section>';
  let html=readFileSync('page.template.html','utf8').replace('{{SUMMARY}}',summary).replace('{{PRODUCTS}}',products).replace('{{ARCHIVES}}',historical?'<p><a href="/">← 최신 가격판정 보기</a></p>':archiveLinks).replaceAll('{{CHAT}}',url(current.chatUrl));
@@ -40,5 +51,5 @@ function render(data,historical=false){
  return html;
 }
 writeFileSync('index.html',render(current));
-for(const data of all){mkdirSync(data.date,{recursive:true});writeFileSync(data.date+'/index.html',render(data,true));}
+for(const data of all){mkdirSync(data.date,{recursive:true});if(data.date===current.date||!existsSync(data.date+'/index.html'))writeFileSync(data.date+'/index.html',render(data,true));}
 console.log('Built '+current.products.length+' products and '+all.length+' dated pages');
