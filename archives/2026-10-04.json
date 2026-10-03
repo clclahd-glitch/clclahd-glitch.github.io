@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-04",
+  "chatUrl": "https://open.kakao.com/o/pnnTCtQi",
+  "topDeals": [
+    "수뜰리에 고농축 섬유유연제 코튼캔디",
+    "바른세탁소 액체세제 라임향",
+    "삼립 계란옷 입은 몬테크리스토 토스트"
+  ],
+  "products": [
+    {
+      "id": "softener",
+      "date": "2026-10-04",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "toss",
+      "name": "수뜰리에 고농축 섬유유연제 코튼캔디",
+      "configuration": "2.5L × 4개 · 총 10L",
+      "price": 4620,
+      "priceFacts": [
+        "1통 1,155원",
+        "1L 약 462원"
+      ],
+      "image": "/assets/products/2026-10-04/softener.webp",
+      "link": "https://toss.shopping/_m/TKbH8kVu",
+      "affiliate": true
+    },
+    {
+      "id": "detergent",
+      "date": "2026-10-04",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "toss",
+      "name": "바른세탁소 액체세제 라임향",
+      "configuration": "2.5L × 4개 · 총 10L",
+      "price": 5950,
+      "priceFacts": [
+        "1통 약 1,488원",
+        "1L 595원"
+      ],
+      "image": "/assets/products/2026-10-04/detergent.webp",
+      "link": "https://toss.shopping/_m/fqFsGxtn",
+      "affiliate": true
+    },
+    {
+      "id": "montecristo",
+      "date": "2026-10-04",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "삼립 계란옷 입은 몬테크리스토 토스트",
+      "configuration": "3P · 540g",
+      "price": 10420,
+      "priceFacts": [
+        "네이버 13,420~16,900원",
+        "최대 6,480원↓"
+      ],
+      "image": "/assets/products/2026-10-04/montecristo.webp",
+      "link": "https://link.coupang.com/a/hyh9rDUqxU",
+      "affiliate": true
+    },
+    {
+      "id": "dunkin",
+      "date": "2026-10-04",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "toss",
+      "name": "던킨 미니도넛 3종",
+      "configuration": "딸기 250g + 바바리안 250g + 글레이즈드 135g · 총 3팩",
+      "price": 11500,
+      "priceFacts": [
+        "1팩 약 3,834원"
+      ],
+      "image": "/assets/products/2026-10-04/dunkin.webp",
+      "link": "https://toss.shopping/_m/74wp8gam",
+      "affiliate": true
+    },
+    {
+      "id": "jeti",
+      "date": "2026-10-04",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "toss",
+      "name": "해태제과 제티 초코",
+      "configuration": "20개입 · 1통",
+      "price": 5450,
+      "priceFacts": [
+        "1개 약 273원"
+      ],
+      "image": "/assets/products/2026-10-04/jeti.webp",
+      "link": "https://toss.shopping/_m/pKAO8YZf",
+      "affiliate": true
+    },
+    {
+      "id": "multitap",
+      "date": "2026-10-04",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "toss",
+      "name": "모노케어 3구개별 안전커버 멀티탭",
+      "configuration": "화이트 · 1.5m · 1개",
+      "price": 5530,
+      "priceFacts": [
+        "3구 개별스위치",
+        "무료배송"
+      ],
+      "image": "/assets/products/2026-10-04/multitap.webp",
+      "link": "https://toss.shopping/_m/r0bujcWa",
+      "affiliate": true
+    },
+    {
+      "id": "shrimp",
+      "date": "2026-10-04",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "어부심 산지직송 생물새우",
+      "configuration": "1kg · 30~40미",
+      "price": 23920,
+      "priceFacts": [
+        "100g 2,392원"
+      ],
+      "image": "/assets/products/2026-10-04/shrimp.webp",
+      "link": "https://link.coupang.com/a/hyicEmfSea",
+      "affiliate": true
+    },
+    {
+      "id": "tablet",
+      "date": "2026-10-04",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "아이뮤즈 8인치 뮤패드 K8",
+      "configuration": "128GB · Wi‑Fi+Cellular",
+      "price": 188140,
+      "priceFacts": [
+        "G마켓 204,680원 · 16,540원↓",
+        "11번가 214,200원 · 26,060원↓"
+      ],
+      "image": "/assets/products/2026-10-04/tablet.webp",
+      "link": "https://link.coupang.com/a/hyikdCdBWS",
+      "affiliate": true
+    },
+    {
+      "id": "dishsoap",
+      "date": "2026-10-04",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "지오클린 레몬테라피 주방세제",
+      "configuration": "4L × 2 + 공병 1L · 총 9L",
+      "price": 16210,
+      "priceFacts": [
+        "1L 약 1,801원"
+      ],
+      "image": "/assets/products/2026-10-04/dishsoap.webp",
+      "link": "https://www.coupang.com/vp/products/5341297967",
+      "affiliate": false
+    },
+    {
+      "id": "lipbalm",
+      "date": "2026-10-04",
+      "status": "pass",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "이니스프리 유채꿀 립밤 초보습",
+      "configuration": "3.5g × 2개",
+      "price": 7900,
+      "priceFacts": [
+        "G마켓 9,300원 · 1,400원 차이",
+        "네이버 10,000원 · 2,100원 차이"
+      ],
+      "image": "/assets/products/2026-10-04/lipbalm.webp",
+      "link": "https://link.coupang.com/a/hyigErh576",
+      "affiliate": true
+    }
+  ]
+}
