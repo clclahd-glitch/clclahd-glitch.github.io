@@ -1,174 +1,176 @@
 {
-  "date": "2026-10-03",
+  "date": "2026-10-04",
   "chatUrl": "https://open.kakao.com/o/pnnTCtQi",
   "topDeals": [
-    "맘스럽 시그니처코튼 물티슈",
-    "맛꾼 메추리알 장조림",
-    "맥스앤맥스 이지밀 냉동밥&국 소분 밀폐용기 세트"
+    "수뜰리에 고농축 섬유유연제 코튼캔디",
+    "바른세탁소 액체세제 라임향",
+    "삼립 계란옷 입은 몬테크리스토 토스트"
   ],
   "products": [
     {
-      "id": "mccol",
-      "date": "2026-10-03",
+      "id": "softener",
+      "date": "2026-10-04",
       "status": "buy",
       "midnightOpen": false,
       "platform": "toss",
-      "name": "맥콜 제로슈거",
-      "configuration": "190ml × 30개",
-      "price": 7600,
+      "name": "수뜰리에 고농축 섬유유연제 코튼캔디",
+      "configuration": "2.5L × 4개 · 총 10L",
+      "price": 4620,
       "priceFacts": [
-        "1캔 약 253원"
+        "1통 1,155원",
+        "1L 약 462원"
       ],
-      "image": "/assets/products/2026-10-03/mccol.webp",
-      "link": "https://toss.shopping/_m/vxV8r5Yz",
+      "image": "/assets/products/2026-10-04/softener.webp",
+      "link": "https://toss.shopping/_m/TKbH8kVu",
       "affiliate": true
     },
     {
-      "id": "containers",
-      "date": "2026-10-03",
+      "id": "detergent",
+      "date": "2026-10-04",
       "status": "buy",
       "midnightOpen": false,
       "platform": "toss",
-      "name": "맥스앤맥스 이지밀 냉동밥&국 소분 밀폐용기 세트",
-      "configuration": "아이보리 350ml × 12개 + 올리브그린 700ml × 8개 · 총 20개",
+      "name": "바른세탁소 액체세제 라임향",
+      "configuration": "2.5L × 4개 · 총 10L",
       "price": 5950,
       "priceFacts": [
-        "1개 약 298원"
+        "1통 약 1,488원",
+        "1L 595원"
       ],
-      "image": "/assets/products/2026-10-03/containers.webp",
-      "link": "https://toss.shopping/_m/VPOAYRu8",
+      "image": "/assets/products/2026-10-04/detergent.webp",
+      "link": "https://toss.shopping/_m/fqFsGxtn",
       "affiliate": true
     },
     {
-      "id": "wipes",
-      "date": "2026-10-03",
-      "status": "buy",
-      "midnightOpen": true,
-      "platform": "toss",
-      "name": "맘스럽 시그니처코튼 물티슈",
-      "configuration": "100매 × 10팩",
-      "price": 4990,
-      "priceFacts": [
-        "1팩 499원"
-      ],
-      "image": "/assets/products/2026-10-03/wipes.webp",
-      "link": "https://toss.shopping/_m/JnmBfkmd",
-      "affiliate": true
-    },
-    {
-      "id": "eggs",
-      "date": "2026-10-03",
-      "status": "buy",
-      "midnightOpen": true,
-      "platform": "toss",
-      "name": "맛꾼 메추리알 장조림",
-      "configuration": "1kg × 2개",
-      "price": 8900,
-      "priceFacts": [
-        "1kg 4,450원"
-      ],
-      "image": "/assets/products/2026-10-03/eggs.webp",
-      "link": "https://toss.shopping/_m/3TghC3wo",
-      "affiliate": true
-    },
-    {
-      "id": "donuts",
-      "date": "2026-10-03",
-      "status": "buy",
-      "midnightOpen": false,
-      "platform": "toss",
-      "name": "호정가 군고구마도나스",
-      "configuration": "960g / 16개입",
-      "price": 4990,
-      "priceFacts": [
-        "1개 약 312원"
-      ],
-      "image": "/assets/products/2026-10-03/donuts.webp",
-      "link": "https://toss.shopping/_m/fB9816nd",
-      "affiliate": true
-    },
-    {
-      "id": "yakgwa",
-      "date": "2026-10-03",
-      "status": "pass",
-      "midnightOpen": false,
-      "platform": "toss",
-      "name": "호정가 우리쌀약과",
-      "configuration": "1kg",
-      "price": 12900,
-      "priceFacts": [
-        "1kg 12,900원"
-      ],
-      "image": "/assets/products/2026-10-03/yakgwa.webp",
-      "link": "https://toss.shopping/_m/VLQnMtr2",
-      "affiliate": true
-    },
-    {
-      "id": "dr-you",
-      "date": "2026-10-03",
+      "id": "montecristo",
+      "date": "2026-10-04",
       "status": "buy",
       "midnightOpen": false,
       "platform": "coupang",
-      "name": "닥터유 한입쏙 단백질바",
-      "configuration": "",
-      "price": 10500,
+      "name": "삼립 계란옷 입은 몬테크리스토 토스트",
+      "configuration": "3P · 540g",
+      "price": 10420,
       "priceFacts": [
-        "네이버 13,500원 → 쿠팡 10,500원",
-        "3,000원↓"
+        "네이버 13,420~16,900원",
+        "최대 6,480원↓"
       ],
-      "image": "/assets/products/2026-10-03/dr-you.png",
-      "link": "https://link.coupang.com/a/hwuD1TxTRQ",
+      "image": "/assets/products/2026-10-04/montecristo.webp",
+      "link": "https://link.coupang.com/a/hyh9rDUqxU",
       "affiliate": true
     },
     {
-      "id": "head-shoulders",
-      "date": "2026-10-03",
+      "id": "dunkin",
+      "date": "2026-10-04",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "toss",
+      "name": "던킨 미니도넛 3종",
+      "configuration": "딸기 250g + 바바리안 250g + 글레이즈드 135g · 총 3팩",
+      "price": 11500,
+      "priceFacts": [
+        "1팩 약 3,834원"
+      ],
+      "image": "/assets/products/2026-10-04/dunkin.webp",
+      "link": "https://toss.shopping/_m/74wp8gam",
+      "affiliate": true
+    },
+    {
+      "id": "jeti",
+      "date": "2026-10-04",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "toss",
+      "name": "해태제과 제티 초코",
+      "configuration": "20개입 · 1통",
+      "price": 5450,
+      "priceFacts": [
+        "1개 약 273원"
+      ],
+      "image": "/assets/products/2026-10-04/jeti.webp",
+      "link": "https://toss.shopping/_m/pKAO8YZf",
+      "affiliate": true
+    },
+    {
+      "id": "multitap",
+      "date": "2026-10-04",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "toss",
+      "name": "모노케어 3구개별 안전커버 멀티탭",
+      "configuration": "화이트 · 1.5m · 1개",
+      "price": 5530,
+      "priceFacts": [
+        "3구 개별스위치",
+        "무료배송"
+      ],
+      "image": "/assets/products/2026-10-04/multitap.webp",
+      "link": "https://toss.shopping/_m/r0bujcWa",
+      "affiliate": true
+    },
+    {
+      "id": "shrimp",
+      "date": "2026-10-04",
       "status": "buy",
       "midnightOpen": false,
       "platform": "coupang",
-      "name": "헤드앤숄더 토탈 솔루션 가려운 두피 케어 샴푸",
-      "configuration": "",
-      "price": 13000,
+      "name": "어부심 산지직송 생물새우",
+      "configuration": "1kg · 30~40미",
+      "price": 23920,
       "priceFacts": [
-        "네이버 15,900원 → 현재가 13,000원",
-        "2,900원↓"
+        "100g 2,392원"
       ],
-      "image": "/assets/products/2026-10-03/head-shoulders.jpg",
-      "link": "",
+      "image": "/assets/products/2026-10-04/shrimp.webp",
+      "link": "https://link.coupang.com/a/hyicEmfSea",
+      "affiliate": true
+    },
+    {
+      "id": "tablet",
+      "date": "2026-10-04",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "아이뮤즈 8인치 뮤패드 K8",
+      "configuration": "128GB · Wi‑Fi+Cellular",
+      "price": 188140,
+      "priceFacts": [
+        "G마켓 204,680원 · 16,540원↓",
+        "11번가 214,200원 · 26,060원↓"
+      ],
+      "image": "/assets/products/2026-10-04/tablet.webp",
+      "link": "https://link.coupang.com/a/hyikdCdBWS",
+      "affiliate": true
+    },
+    {
+      "id": "dishsoap",
+      "date": "2026-10-04",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "지오클린 레몬테라피 주방세제",
+      "configuration": "4L × 2 + 공병 1L · 총 9L",
+      "price": 16210,
+      "priceFacts": [
+        "1L 약 1,801원"
+      ],
+      "image": "/assets/products/2026-10-04/dishsoap.webp",
+      "link": "https://www.coupang.com/vp/products/5341297967",
       "affiliate": false
     },
     {
-      "id": "liq",
-      "date": "2026-10-03",
-      "status": "buy",
+      "id": "lipbalm",
+      "date": "2026-10-04",
+      "status": "pass",
       "midnightOpen": false,
       "platform": "coupang",
-      "name": "리큐 진한겔 프레시 런드리향 액상세제 리필",
-      "configuration": "",
-      "price": 28610,
+      "name": "이니스프리 유채꿀 립밤 초보습",
+      "configuration": "3.5g × 2개",
+      "price": 7900,
       "priceFacts": [
-        "네이버 31,700원 → 쿠팡 28,610원",
-        "3,090원↓"
+        "G마켓 9,300원 · 1,400원 차이",
+        "네이버 10,000원 · 2,100원 차이"
       ],
-      "image": "/assets/products/2026-10-03/liq.jpg",
-      "link": "https://link.coupang.com/a/hwuJ2OcPGS",
-      "affiliate": true
-    },
-    {
-      "id": "illiyoon",
-      "date": "2026-10-03",
-      "status": "buy",
-      "midnightOpen": false,
-      "platform": "coupang",
-      "name": "일리윤 세라마이드 아토 로션 무향",
-      "configuration": "",
-      "price": 14720,
-      "priceFacts": [
-        "G마켓 16,640원 → 쿠팡 14,720원",
-        "1,920원↓"
-      ],
-      "image": "/assets/products/2026-10-03/illiyoon.jpg",
-      "link": "https://link.coupang.com/a/hwuLA3PEZg",
+      "image": "/assets/products/2026-10-04/lipbalm.webp",
+      "link": "https://link.coupang.com/a/hyigErh576",
       "affiliate": true
     }
   ]
