@@ -24,14 +24,15 @@ function card(p,date,historical){
  const action=url(p.link)?'<a class="buy-link" target="_blank" rel="'+(p.affiliate===false?'':'sponsored ')+'noopener noreferrer" href="'+url(p.link)+'">'+button+'</a>':'';
  return '<article class="card '+status+'"><span class="badge">'+labels[status]+'</span>'+badge+'<div class="product-head">'+photo+'<h3>'+e(p.name)+'</h3>'+(p.configuration?'<div class="config">'+e(p.configuration)+'</div>':'')+'<div class="price">'+p.price.toLocaleString('ko-KR')+'원</div></div><div class="price-facts"><strong>💸 가격 한눈에</strong>'+facts.map(s=>'<p>'+e(s)+'</p>').join('')+'</div>'+info+action+disclosure+'</article>';
 }
-function row(p){
+function row(p,rank=null){
  const facts=p.priceFacts||[p.unit,p.comparison].filter(Boolean);
  const last=facts.at(-1)||'';
  const m=last.match(/^(.*?) [\d,]+원 · ([\d,]+원)(↓| 차이)$/);
  const fact=m?m[1]+(m[3]==='↓'?'보다 ':'와 ')+m[2]+m[3]:(facts[0]||'');
  const photo=photoUrl(p.image)?'<img class="row-photo" loading="lazy" width="96" height="96" src="'+displayPhoto(p)+'" alt="'+e(p.name)+'" onerror="this.hidden=true">':'';
- const body=photo+'<div class="row-info"><span class="badge">'+labels[p.status==='buy'?'buy':'pass']+'</span><h3>'+e(p.name)+'</h3><div class="row-prices"><span>'+e(fact)+'</span><strong>'+p.price.toLocaleString('ko-KR')+'원</strong></div>'+(p.affiliate===false?'<small>수수료 없는 정보딜</small>':'')+'</div><span class="row-arrow" aria-hidden="true">›</span>';
- return '<article class="deal-row '+(p.status==='buy'?'buy':'pass')+'">'+(url(p.link)?'<a href="'+url(p.link)+'" target="_blank" rel="'+(p.affiliate===false?'':'sponsored ')+'noopener noreferrer">'+body+'</a>':'<div class="row-body">'+body+'</div>')+'</article>';
+ const lead=rank?'<div class="top-line"><span class="top-rank">TOP '+rank+'</span><span class="badge">'+labels[p.status==='buy'?'buy':'pass']+'</span></div>':'<span class="badge">'+labels[p.status==='buy'?'buy':'pass']+'</span>';
+ const body=photo+'<div class="row-info">'+lead+'<h3>'+e(p.name)+'</h3><div class="row-prices"><span>'+e(fact)+'</span><strong>'+p.price.toLocaleString('ko-KR')+'원</strong></div>'+(p.affiliate===false?'<small>수수료 없는 정보딜</small>':'')+'</div><span class="row-arrow" aria-hidden="true">›</span>';
+ return '<article class="deal-row '+(p.status==='buy'?'buy':'pass')+(rank?' top-deal':'')+'">'+(url(p.link)?'<a href="'+url(p.link)+'" target="_blank" rel="'+(p.affiliate===false?'':'sponsored ')+'noopener noreferrer">'+body+'</a>':'<div class="row-body">'+body+'</div>')+'</article>';
 }
 function listDisclosure(ps){return [...new Set(ps.filter(p=>p.affiliate!==false).map(p=>p.platform))].map(k=>'<p class="affiliate list-disclosure">'+e(notices[k]||'')+'</p>').join('');}
 function render(data,historical=false){
@@ -41,7 +42,7 @@ function render(data,historical=false){
  const count=ps.filter(p=>p.status==='buy').length;
  const open=ps.filter(p=>p.midnightOpen===true).length;
  const summary='<h2>'+month+'/'+day+' 오늘의 가격판정</h2><p class="total">'+ps.length+'개 확인</p><div class="counts"><span>🟢 사도 됨 '+count+'개</span><span>🔴 지금은 PASS '+(ps.length-count)+'개</span></div>'+(open?'<p class="open-count">⏰ '+month+'/'+day+' 00:00 오픈 상품 '+open+'개</p>':'');
- let products='<section><h2 class="section-title">오늘의 TOP 3</h2><div class="top-grid">'+top.map(p=>card(p,data.date,historical)).join('')+'</div></section>';
+ let products='<section><h2 class="section-title">오늘의 TOP 3</h2>'+(historical?'<div class="top-grid">'+top.map(p=>card(p,data.date,historical)).join('')+'</div>':'<div class="top-list">'+top.map((p,i)=>row(p,i+1)).join('')+'</div>')+'</section>';
  products+='<section><h2 class="section-title">'+month+'/'+day+' 🟢 사도 됨</h2><p class="muted">TOP 3 포함 총 '+count+'개 · 아래는 나머지 상품입니다.</p>'+(historical?ps.filter(p=>p.status==='buy'&&!top.includes(p)).map(p=>card(p,data.date,historical)).join(''):listDisclosure(ps.filter(p=>p.status==='buy'&&!top.includes(p)))+ps.filter(p=>p.status==='buy'&&!top.includes(p)).map(row).join(''))+'</section>';
  products+='<section><h2 class="section-title">🔴 지금은 PASS</h2>'+(historical?ps.filter(p=>p.status!=='buy').map(p=>card(p,data.date,historical)).join(''):listDisclosure(ps.filter(p=>p.status!=='buy'))+ps.filter(p=>p.status!=='buy').map(row).join(''))+'</section>';
  const list=all.filter(a=>a.date!==current.date).sort((a,b)=>b.date.localeCompare(a.date));
