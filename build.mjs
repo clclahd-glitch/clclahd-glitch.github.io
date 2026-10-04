@@ -4,7 +4,7 @@ const e=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt
 const url=s=>{try{const u=new URL(s);return u.protocol==='https:'?e(u.href):''}catch{return ''}};
 const photoUrl=s=>/^\/assets\/products\/(?:[0-9]{4}-[0-9]{2}-[0-9]{2}\/)?[a-z0-9-]+\.(?:svg|jpg|png|webp)$/.test(s||'')?e(s):url(s);
 const labels={buy:'🟢 사도 됨',pass:'🔴 지금은 PASS'};
-const notices={toss:'✱ 이 포스팅은 토스쇼핑 쉐어링크 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.',coupang:'쿠팡파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받을 수 있습니다.'};
+const notices={toss:'✱ 이 포스팅은 토스쇼핑 쉐어링크 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.',coupang:'쿠팡파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받을 수 있습니다.',kakao:'※ 이 링크를 통해 구매 시 결제금액의 3%(최대 1만원)를 적립받을 수 있습니다.'};
 mkdirSync('archives',{recursive:true});
 const archives=readdirSync('archives').filter(f=>/^\d{4}-\d{2}-\d{2}\.json$/.test(f)).map(f=>JSON.parse(readFileSync('archives/'+f,'utf8')));
 writeFileSync('archives/'+current.date+'.json',JSON.stringify(current,null,2)+'\n');
@@ -32,7 +32,7 @@ function row(p,rank=null){
  const photo=photoUrl(p.image)?'<img class="row-photo" loading="lazy" width="96" height="96" src="'+displayPhoto(p)+'" alt="'+e(p.name)+'" onerror="this.hidden=true">':'';
  const lead=rank?'<div class="top-line"><span class="top-rank">TOP '+rank+'</span><span class="badge">'+labels[p.status==='buy'?'buy':'pass']+'</span></div>':'<span class="badge">'+labels[p.status==='buy'?'buy':'pass']+'</span>';
  const body=photo+'<div class="row-info">'+lead+'<h3>'+e(p.name)+'</h3><div class="row-prices"><span>'+e(fact)+'</span><strong>'+p.price.toLocaleString('ko-KR')+'원</strong></div>'+(p.affiliate===false?'<small>수수료 없는 정보딜</small>':'')+'</div><span class="row-arrow" aria-hidden="true">›</span>';
- return '<article class="deal-row '+(p.status==='buy'?'buy':'pass')+(rank?' top-deal':'')+'">'+(url(p.link)?'<a href="'+url(p.link)+'" target="_blank" rel="'+(p.affiliate===false?'':'sponsored ')+'noopener noreferrer">'+body+'</a>':'<div class="row-body">'+body+'</div>')+'</article>';
+ return '<article class="deal-row '+(photo?'':'no-photo ')+(p.status==='buy'?'buy':'pass')+(rank?' top-deal':'')+'">'+(url(p.link)?'<a href="'+url(p.link)+'" target="_blank" rel="'+(p.affiliate===false?'':'sponsored ')+'noopener noreferrer">'+body+'</a>':'<div class="row-body">'+body+'</div>')+'</article>';
 }
 function listDisclosure(ps){return [...new Set(ps.filter(p=>p.affiliate!==false).map(p=>p.platform))].map(k=>'<p class="affiliate list-disclosure">'+e(notices[k]||'')+'</p>').join('');}
 function render(data,historical=false){
