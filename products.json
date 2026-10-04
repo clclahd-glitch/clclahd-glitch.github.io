@@ -1,264 +1,258 @@
 {
-  "date": "2026-10-04",
+  "date": "2026-10-05",
   "chatUrl": "https://open.kakao.com/o/pnnTCtQi",
   "topDeals": [
-    "르샤트라1802 인퓨전 섬유유연제 피오니부케",
-    "클룹 애사비소다 오리지널 제로",
-    "2080 클래식 치약"
+    "포천이동 양념LA갈비",
+    "스카트 하루한장 THE 버블 수세미",
+    "코카콜라 제로 레몬라임"
   ],
   "products": [
     {
-      "id": "lechatelard",
-      "date": "2026-10-04",
+      "id": "lagalbi",
+      "date": "2026-10-05",
       "status": "buy",
       "midnightOpen": false,
-      "platform": "coupang",
-      "name": "르샤트라1802 인퓨전 섬유유연제 피오니부케",
-      "configuration": "5.7L · 1개",
-      "price": 12830,
+      "platform": "toss",
+      "name": "포천이동 양념LA갈비",
+      "configuration": "500g · 1팩",
+      "price": 6990,
       "priceFacts": [
-        "네이버 21,900원 · 9,070원↓"
+        "100g당 약 1,398원"
       ],
-      "image": "/assets/products/2026-10-04/lechatelard.webp",
-      "link": "https://link.coupang.com/a/hzabUdBFJY",
+      "image": "",
+      "link": "https://toss.shopping/_m/lFh0Rwi8",
       "affiliate": true
     },
     {
-      "id": "cloop",
-      "date": "2026-10-04",
+      "id": "scott",
+      "date": "2026-10-05",
       "status": "buy",
       "midnightOpen": false,
       "platform": "coupang",
-      "name": "클룹 애사비소다 오리지널 제로",
-      "configuration": "250ml × 24캔",
-      "price": 13240,
+      "name": "스카트 하루한장 THE 버블 수세미",
+      "configuration": "100매 × 2개 · 총 200매",
+      "price": 7210,
       "priceFacts": [
-        "1캔 약 552원",
-        "네이버 19,800원 · 6,560원↓"
+        "1매 약 36원",
+        "G마켓 10,120원 · 2,910원↓"
       ],
-      "image": "/assets/products/2026-10-04/cloop.webp",
-      "link": "https://link.coupang.com/a/hzalFHR5Jl",
+      "image": "",
+      "link": "https://link.coupang.com/a/hzRFEYZ9ae",
       "affiliate": true
     },
     {
-      "id": "toothpaste",
-      "date": "2026-10-04",
+      "id": "coke",
+      "date": "2026-10-05",
       "status": "buy",
       "midnightOpen": false,
       "platform": "coupang",
-      "name": "2080 클래식 치약",
-      "configuration": "170g × 10개",
-      "price": 9560,
+      "name": "코카콜라 제로 레몬라임",
+      "configuration": "350ml × 24캔",
+      "price": 15360,
       "priceFacts": [
-        "1개 956원",
-        "네이버 14,990원 · 5,430원↓",
-        "G마켓 15,000원 · 5,440원↓"
+        "1캔 640원",
+        "11번가 19,500원 · 4,140원↓"
       ],
-      "image": "/assets/products/2026-10-04/toothpaste.webp",
-      "link": "https://link.coupang.com/a/hzawjLuGAK",
+      "image": "",
+      "link": "https://link.coupang.com/a/hzRHMGOFtQ",
       "affiliate": true
     },
     {
-      "id": "lacfido",
-      "date": "2026-10-04",
+      "id": "deepq",
+      "date": "2026-10-05",
       "status": "buy",
       "midnightOpen": false,
-      "platform": "coupang",
-      "name": "락피도 프로바이오틱스 키즈 플러스 60p",
-      "configuration": "120g · 60포",
-      "price": 14920,
+      "platform": "kakao",
+      "name": "딥큐 캡슐세제 오션브리즈",
+      "configuration": "100개입",
+      "price": 8900,
       "priceFacts": [
-        "1포 약 249원",
-        "11번가 21,900원 · 6,980원↓",
-        "네이버 23,800원 · 8,880원↓"
+        "1개 약 89원"
       ],
-      "image": "/assets/products/2026-10-04/lacfido.webp",
-      "link": "https://link.coupang.com/a/hzaBBxxM28",
+      "image": "",
+      "link": "https://clink.kakao.com/sp/zodtsLLcDhRmgRK9?ref=SHARE_AF",
       "affiliate": true
     },
     {
-      "id": "kerasys",
-      "date": "2026-10-04",
+      "id": "eggs",
+      "date": "2026-10-05",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "kakao",
+      "name": "구운란 중란 30구 × 2판",
+      "configuration": "총 60알",
+      "price": 15700,
+      "priceFacts": [
+        "1알 약 262원"
+      ],
+      "image": "",
+      "link": "https://clink.kakao.com/sp/EMKeUDfmEjamAenB?ref=SHARE_AF",
+      "affiliate": true
+    },
+    {
+      "id": "croissant",
+      "date": "2026-10-05",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "kakao",
+      "name": "집구빵 갈릭크로와상",
+      "configuration": "200g × 3봉 · 총 30개",
+      "price": 20700,
+      "priceFacts": [
+        "1개 약 690원",
+        "수수료 없는 정보딜"
+      ],
+      "image": "",
+      "link": "https://store.kakao.com/mssfood2/products/78227305?ref=SHARE",
+      "affiliate": false
+    },
+    {
+      "id": "kellogg",
+      "date": "2026-10-05",
       "status": "buy",
       "midnightOpen": false,
       "platform": "coupang",
-      "name": "케라시스 퍼퓸 샴푸 러블리 앤 로맨틱향",
-      "configuration": "980ml × 3개",
+      "name": "켈로그 리얼 그래놀라 오리지널 시리얼",
+      "configuration": "350g × 2개",
+      "price": 7800,
+      "priceFacts": [
+        "100g당 약 1,114원",
+        "화면상 2개월 최저가 구간"
+      ],
+      "image": "",
+      "link": "https://link.coupang.com/a/hzRDUgQ5XU",
+      "affiliate": true
+    },
+    {
+      "id": "lipton",
+      "date": "2026-10-05",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "립톤 아이스티 믹스 복숭아맛",
+      "configuration": "1.5kg · 1개",
+      "price": 10310,
+      "priceFacts": [
+        "G마켓 13,490원 · 3,180원↓"
+      ],
+      "image": "",
+      "link": "https://link.coupang.com/a/hzRJ4nPZIW",
+      "affiliate": true
+    },
+    {
+      "id": "yogurt",
+      "date": "2026-10-05",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "서울우유 더진한 그릭요거트",
+      "configuration": "100g × 3개",
+      "price": 6920,
+      "priceFacts": [
+        "1개 약 2,307원",
+        "화면상 2개월 최저가 구간"
+      ],
+      "image": "",
+      "link": "https://link.coupang.com/a/hzRMRIke72",
+      "affiliate": true
+    },
+    {
+      "id": "bazaar",
+      "date": "2026-10-05",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "바자르 딥슬립 건조기케어 워싱 사계절 침구 세트",
+      "configuration": "버터 · 1세트",
+      "price": 43900,
+      "priceFacts": [
+        "가격 그래프 평균가 대비 약 16,412원↓"
+      ],
+      "image": "",
+      "link": "https://link.coupang.com/a/hzRQ7Aispw",
+      "affiliate": true
+    },
+    {
+      "id": "sariwon",
+      "date": "2026-10-05",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "toss",
+      "name": "사리원 소불고기",
+      "configuration": "500g × 4팩 · 총 2kg",
+      "price": 17900,
+      "priceFacts": [
+        "1팩 약 4,475원",
+        "100g당 약 895원"
+      ],
+      "image": "",
+      "link": "https://toss.shopping/_m/ZIHHkDoc",
+      "affiliate": true
+    },
+    {
+      "id": "toiletpaper",
+      "date": "2026-10-05",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "toss",
+      "name": "올챌린지 천연펄프 화장지",
+      "configuration": "3겹 · 30m · 30롤 × 2팩",
+      "price": 21900,
+      "priceFacts": [
+        "총 60롤",
+        "1롤 약 365원"
+      ],
+      "image": "",
+      "link": "https://toss.shopping/_m/5S3doSTg",
+      "affiliate": true
+    },
+    {
+      "id": "spark",
+      "date": "2026-10-05",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "toss",
+      "name": "스파클 생수 무라벨",
+      "configuration": "2L × 24병",
+      "price": 13480,
+      "priceFacts": [
+        "1병 약 562원"
+      ],
+      "image": "",
+      "link": "https://toss.shopping/_m/rQ6U0dZ5",
+      "affiliate": true
+    },
+    {
+      "id": "irom",
+      "date": "2026-10-05",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "toss",
+      "name": "이롬 국내산 약콩 무가당 두유",
+      "configuration": "190ml × 16팩",
+      "price": 4990,
+      "priceFacts": [
+        "1팩 약 312원",
+        "10/5 12:00부터 구매 가능"
+      ],
+      "image": "",
+      "link": "https://toss.shopping/_m/3hwIdBxs",
+      "affiliate": true
+    },
+    {
+      "id": "cabbage",
+      "date": "2026-10-05",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "toss",
+      "name": "푸릇담 젊은농부 양배추즙",
+      "configuration": "100ml × 30팩",
       "price": 11900,
       "priceFacts": [
-        "1통 약 3,967원",
-        "11번가 16,290원 · 4,390원↓",
-        "G마켓 17,010원 · 5,110원↓"
+        "1팩 약 397원"
       ],
-      "image": "/assets/products/2026-10-04/kerasys.webp",
-      "link": "https://link.coupang.com/a/hzaIypuQsS",
-      "affiliate": true
-    },
-    {
-      "id": "georgia",
-      "date": "2026-10-04",
-      "status": "buy",
-      "midnightOpen": false,
-      "platform": "coupang",
-      "name": "조지아 크래프트 아메리카노",
-      "configuration": "470ml × 24개",
-      "price": 16980,
-      "priceFacts": [
-        "1병 약 708원",
-        "G마켓 21,640원 · 4,660원↓"
-      ],
-      "image": "/assets/products/2026-10-04/georgia.webp",
-      "link": "https://link.coupang.com/a/hzaqaEQZtk",
-      "affiliate": true
-    },
-    {
-      "id": "stanley",
-      "date": "2026-10-04",
-      "status": "buy",
-      "midnightOpen": false,
-      "platform": "coupang",
-      "name": "스탠리 퀜처 H2.0 플로우스테이트 텀블러",
-      "configuration": "크림 · 1.18L · 1개",
-      "price": 34080,
-      "priceFacts": [
-        "표시가 55,900원 대비 40%↓",
-        "가격 그래프 최근 저점 구간"
-      ],
-      "image": "/assets/products/2026-10-04/stanley.webp",
-      "link": "https://link.coupang.com/a/hzafEaTjlA",
-      "affiliate": true
-    },
-    {
-      "id": "softener",
-      "date": "2026-10-04",
-      "status": "buy",
-      "midnightOpen": false,
-      "platform": "toss",
-      "name": "수뜰리에 고농축 섬유유연제 코튼캔디",
-      "configuration": "2.5L × 4개 · 총 10L",
-      "price": 4620,
-      "priceFacts": [
-        "1통 1,155원",
-        "1L 약 462원"
-      ],
-      "image": "/assets/products/2026-10-04/softener.webp",
-      "link": "https://toss.shopping/_m/TKbH8kVu",
-      "affiliate": true
-    },
-    {
-      "id": "detergent",
-      "date": "2026-10-04",
-      "status": "buy",
-      "midnightOpen": false,
-      "platform": "toss",
-      "name": "바른세탁소 액체세제 라임향",
-      "configuration": "2.5L × 4개 · 총 10L",
-      "price": 5950,
-      "priceFacts": [
-        "1통 약 1,488원",
-        "1L 595원"
-      ],
-      "image": "/assets/products/2026-10-04/detergent.webp",
-      "link": "https://toss.shopping/_m/fqFsGxtn",
-      "affiliate": true
-    },
-    {
-      "id": "montecristo",
-      "date": "2026-10-04",
-      "status": "buy",
-      "midnightOpen": false,
-      "platform": "coupang",
-      "name": "삼립 계란옷 입은 몬테크리스토 토스트",
-      "configuration": "3P · 540g",
-      "price": 10420,
-      "priceFacts": [
-        "네이버 13,420~16,900원",
-        "최대 6,480원↓"
-      ],
-      "image": "/assets/products/2026-10-04/montecristo.webp",
-      "link": "https://link.coupang.com/a/hyh9rDUqxU",
-      "affiliate": true
-    },
-    {
-      "id": "dunkin",
-      "date": "2026-10-04",
-      "status": "buy",
-      "midnightOpen": false,
-      "platform": "toss",
-      "name": "던킨 미니도넛 3종",
-      "configuration": "딸기 250g + 바바리안 250g + 글레이즈드 135g · 총 3팩",
-      "price": 11500,
-      "priceFacts": [
-        "1팩 약 3,834원"
-      ],
-      "image": "/assets/products/2026-10-04/dunkin.webp",
-      "link": "https://toss.shopping/_m/74wp8gam",
-      "affiliate": true
-    },
-    {
-      "id": "multitap",
-      "date": "2026-10-04",
-      "status": "buy",
-      "midnightOpen": false,
-      "platform": "toss",
-      "name": "모노케어 3구개별 안전커버 멀티탭",
-      "configuration": "화이트 · 1.5m · 1개",
-      "price": 5530,
-      "priceFacts": [
-        "3구 개별스위치",
-        "무료배송"
-      ],
-      "image": "/assets/products/2026-10-04/multitap.webp",
-      "link": "https://toss.shopping/_m/r0bujcWa",
-      "affiliate": true
-    },
-    {
-      "id": "shrimp",
-      "date": "2026-10-04",
-      "status": "buy",
-      "midnightOpen": false,
-      "platform": "coupang",
-      "name": "어부심 산지직송 생물새우",
-      "configuration": "1kg · 30~40미",
-      "price": 23920,
-      "priceFacts": [
-        "100g 2,392원"
-      ],
-      "image": "/assets/products/2026-10-04/shrimp.webp",
-      "link": "https://link.coupang.com/a/hyicEmfSea",
-      "affiliate": true
-    },
-    {
-      "id": "dishsoap",
-      "date": "2026-10-04",
-      "status": "buy",
-      "midnightOpen": false,
-      "platform": "coupang",
-      "name": "지오클린 레몬테라피 주방세제",
-      "configuration": "4L × 2 + 공병 1L · 총 9L",
-      "price": 16210,
-      "priceFacts": [
-        "1L 약 1,801원"
-      ],
-      "image": "/assets/products/2026-10-04/dishsoap.webp",
-      "link": "https://link.coupang.com/a/hyk1gZTwU8",
-      "affiliate": true
-    },
-    {
-      "id": "lipbalm",
-      "date": "2026-10-04",
-      "status": "pass",
-      "midnightOpen": false,
-      "platform": "coupang",
-      "name": "이니스프리 유채꿀 립밤 초보습",
-      "configuration": "3.5g × 2개",
-      "price": 7900,
-      "priceFacts": [
-        "G마켓 9,300원 · 1,400원 차이",
-        "네이버 10,000원 · 2,100원 차이"
-      ],
-      "image": "/assets/products/2026-10-04/lipbalm.webp",
-      "link": "https://link.coupang.com/a/hyigErh576",
+      "image": "",
+      "link": "https://toss.shopping/_m/NozmaQHz",
       "affiliate": true
     }
   ]
