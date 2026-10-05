@@ -2,9 +2,9 @@
   "date": "2026-10-05",
   "chatUrl": "https://open.kakao.com/o/pnnTCtQi",
   "topDeals": [
-    "포천이동 양념LA갈비",
-    "스카트 하루한장 THE 버블 수세미",
-    "코카콜라 제로 레몬라임"
+    "세타필 모이스춰라이징 로션",
+    "칠성사이다 제로",
+    "스카트 하루한장 THE 버블 수세미"
   ],
   "products": [
     {
@@ -253,6 +253,91 @@
       ],
       "image": "/assets/products/2026-10-05/cabbage.webp",
       "link": "https://toss.shopping/_m/NozmaQHz",
+      "affiliate": true
+    },
+    {
+      "id": "cetaphil",
+      "date": "2026-10-05",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "세타필 모이스춰라이징 로션",
+      "configuration": "591ml · 1개",
+      "price": 9480,
+      "priceFacts": [
+        "100ml당 약 1,604원",
+        "네이버 14,340원 · 4,860원↓"
+      ],
+      "image": "/assets/products/2026-10-05/cetaphil.webp",
+      "link": "https://link.coupang.com/a/hA7IcbQaZM",
+      "affiliate": true
+    },
+    {
+      "id": "cider",
+      "date": "2026-10-05",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "칠성사이다 제로",
+      "configuration": "210ml × 30캔",
+      "price": 12470,
+      "priceFacts": [
+        "1캔 약 416원",
+        "G마켓 15,640원 · 3,170원↓"
+      ],
+      "image": "/assets/products/2026-10-05/cider.webp",
+      "link": "https://link.coupang.com/a/hA7JADPF92",
+      "affiliate": true
+    },
+    {
+      "id": "jjarreureu",
+      "date": "2026-10-05",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "삼양 짜르르",
+      "configuration": "140g × 12개",
+      "price": 10490,
+      "priceFacts": [
+        "1개 약 874원",
+        "100g당 약 624원"
+      ],
+      "image": "/assets/products/2026-10-05/jjarreureu.webp",
+      "link": "https://link.coupang.com/a/hA7KQTO5YW",
+      "affiliate": true
+    },
+    {
+      "id": "etude",
+      "date": "2026-10-05",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "에뛰드하우스 마스카라 전용 리무버",
+      "configuration": "80ml · 1개",
+      "price": 1670,
+      "priceFacts": [
+        "10ml당 약 209원",
+        "쿠팡 화면 할인율 67%"
+      ],
+      "image": "/assets/products/2026-10-05/etude.webp",
+      "link": "https://link.coupang.com/a/hA7Mb114kS",
+      "affiliate": true
+    },
+    {
+      "id": "coke-original",
+      "date": "2026-10-05",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "코카콜라 오리지널 프리미어리그 스페셜 패키지",
+      "configuration": "490ml × 24캔",
+      "price": 19490,
+      "priceFacts": [
+        "1캔 약 812원",
+        "100ml당 약 166원"
+      ],
+      "image": "/assets/products/2026-10-05/coke-original.webp",
+      "link": "https://link.coupang.com/a/hA7QerbZ4C",
       "affiliate": true
     }
   ]
