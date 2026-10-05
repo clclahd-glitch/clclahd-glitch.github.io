@@ -1,0 +1,180 @@
+{
+  "date": "2026-10-06",
+  "chatUrl": "https://open.kakao.com/o/pnnTCtQi",
+  "topDeals": [
+    "리큐 진한겔 하이브리드 드럼 세탁기용 액상세제",
+    "스카치브라이트 옥수수 망사 수세미",
+    "불닭볶음면"
+  ],
+  "products": [
+    {
+      "id": "liq",
+      "date": "2026-10-06",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "리큐 진한겔 하이브리드 드럼 세탁기용 액상세제",
+      "configuration": "플로럴 부케향 리필 · 2.1L × 4개",
+      "price": 12470,
+      "priceFacts": [
+        "100ml당 약 148원",
+        "11번가 21,890원 · 9,420원↓"
+      ],
+      "image": "/assets/products/2026-10-06/liq.webp",
+      "link": "https://link.coupang.com/a/hBnN9RsWku",
+      "affiliate": true
+    },
+    {
+      "id": "baekseolgi",
+      "date": "2026-10-06",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "toss",
+      "name": "설기명가 우유백설기",
+      "configuration": "45g × 20개",
+      "price": 6900,
+      "priceFacts": [
+        "1개 약 345원"
+      ],
+      "image": "/assets/products/2026-10-06/baekseolgi.webp",
+      "link": "https://toss.shopping/_m/XYi806Fs",
+      "affiliate": true
+    },
+    {
+      "id": "scotchbrite",
+      "date": "2026-10-06",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "스카치브라이트 옥수수 망사 수세미",
+      "configuration": "9개입",
+      "price": 8900,
+      "priceFacts": [
+        "1개 약 989원",
+        "G마켓 16,900원 · 8,000원↓"
+      ],
+      "image": "/assets/products/2026-10-06/scotchbrite.webp",
+      "link": "https://link.coupang.com/a/hBnoH1K5Ho/?style=kakao_existing_ui",
+      "affiliate": false
+    },
+    {
+      "id": "buldak",
+      "date": "2026-10-06",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "불닭볶음면",
+      "configuration": "140g × 20개",
+      "price": 14810,
+      "priceFacts": [
+        "1봉 약 741원",
+        "네이버 20,400원 · 5,590원↓"
+      ],
+      "image": "/assets/products/2026-10-06/buldak.webp",
+      "link": "https://link.coupang.com/a/hBohbN08R2",
+      "affiliate": true
+    },
+    {
+      "id": "lux",
+      "date": "2026-10-06",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "LUX 럭스 슈퍼 리치 크리스탈 헤어마스크",
+      "configuration": "180g × 2개",
+      "price": 12790,
+      "priceFacts": [
+        "1개 약 6,395원",
+        "화면 평균가 대비 약 3,792원↓"
+      ],
+      "image": "/assets/products/2026-10-06/lux.webp",
+      "link": "https://link.coupang.com/a/hBnZWcC2to",
+      "affiliate": true
+    },
+    {
+      "id": "spam",
+      "date": "2026-10-06",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "toss",
+      "name": "CJ제일제당 스팸 클래식",
+      "configuration": "340g × 10캔",
+      "price": 33900,
+      "priceFacts": [
+        "1캔 3,390원",
+        "화면 할인율 44%"
+      ],
+      "image": "/assets/products/2026-10-06/spam.webp",
+      "link": "https://toss.shopping/_m/t1ZmLkb6",
+      "affiliate": true
+    },
+    {
+      "id": "broth",
+      "date": "2026-10-06",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "강고집 육수한포",
+      "configuration": "80g × 2개",
+      "price": 10500,
+      "priceFacts": [
+        "네이버 15,000원 · 4,500원↓",
+        "G마켓 15,680원 · 5,180원↓"
+      ],
+      "image": "/assets/products/2026-10-06/broth.webp",
+      "link": "https://link.coupang.com/a/hBn4NUYGZ2",
+      "affiliate": true
+    },
+    {
+      "id": "powerade",
+      "date": "2026-10-06",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "파워에이드 마운틴 블라스트",
+      "configuration": "600ml × 20병",
+      "price": 17490,
+      "priceFacts": [
+        "1병 약 875원",
+        "11번가 21,900원 · 4,410원↓"
+      ],
+      "image": "/assets/products/2026-10-06/powerade.webp",
+      "link": "https://link.coupang.com/a/hBn7HfXaeG",
+      "affiliate": true
+    },
+    {
+      "id": "pepsi",
+      "date": "2026-10-06",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "펩시 엑스트라 피즈",
+      "configuration": "355ml × 24캔",
+      "price": 14020,
+      "priceFacts": [
+        "1캔 약 584원",
+        "100ml당 약 165원"
+      ],
+      "image": "/assets/products/2026-10-06/pepsi.webp",
+      "link": "https://link.coupang.com/a/hBocyiviw0",
+      "affiliate": true
+    },
+    {
+      "id": "haneulbori",
+      "date": "2026-10-06",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "하늘보리 에코 무라벨",
+      "configuration": "1.5L × 12병",
+      "price": 11970,
+      "priceFacts": [
+        "1병 약 998원",
+        "G마켓 14,320원 · 2,350원↓"
+      ],
+      "image": "/assets/products/2026-10-06/haneulbori.webp",
+      "link": "https://link.coupang.com/a/hBoftw6T5o",
+      "affiliate": true
+    }
+  ]
+}
