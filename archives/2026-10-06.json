@@ -175,6 +175,108 @@
       "image": "/assets/products/2026-10-06/haneulbori.webp",
       "link": "https://link.coupang.com/a/hBoftw6T5o",
       "affiliate": true
+    },
+    {
+      "id": "tp-byeotkkot",
+      "date": "2026-10-06",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "깨끗한나라 벚꽃 로맨틱 천연펄프 3겹 롤화장지",
+      "configuration": "27m × 30롤 × 1팩",
+      "price": 11990,
+      "priceFacts": [
+        "G마켓 15,630원 · 3,640원↓",
+        "네이버 16,450원 · 4,460원↓"
+      ],
+      "image": "/assets/products/2026-10-06/clean-nara.webp",
+      "link": "https://link.coupang.com/a/hCMDZK4dkO",
+      "affiliate": true
+    },
+    {
+      "id": "bibigo-gim",
+      "date": "2026-10-06",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "비비고 한식간장김자반",
+      "configuration": "50g × 2개",
+      "price": 3540,
+      "priceFacts": [
+        "네이버 7,900원 · 4,360원↓",
+        "G마켓 10,080원 · 6,540원↓"
+      ],
+      "image": "/assets/products/2026-10-06/bibigo.webp",
+      "link": "https://link.coupang.com/a/hCMzRIjGSG",
+      "affiliate": true
+    },
+    {
+      "id": "elastine-signature",
+      "date": "2026-10-06",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "엘라스틴 시그니처 두피케어 약산성 샴푸 생화향",
+      "configuration": "1L × 1개",
+      "price": 5190,
+      "priceFacts": [
+        "최근 평균가 대비 5,472원↓",
+        "100ml당 519원"
+      ],
+      "image": "/assets/products/2026-10-06/elastine.webp",
+      "link": "",
+      "affiliate": false
+    },
+    {
+      "id": "chapssal-pie",
+      "date": "2026-10-06",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "롯데 찰떡파이 명가 두바이st 피스타치오맛",
+      "configuration": "300g × 1개",
+      "price": 5630,
+      "priceFacts": [
+        "G마켓 10,820원 · 5,190원↓",
+        "10g당 약 188원"
+      ],
+      "image": "/assets/products/2026-10-06/chapssalpie.webp",
+      "link": "https://link.coupang.com/a/hCMaZIA8T6",
+      "affiliate": true
+    },
+    {
+      "id": "pampers-airchacha",
+      "date": "2026-10-06",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "팸퍼스 2026 엔젤 에어차차 썸머 팬티형 기저귀",
+      "configuration": "남여공용 4단계 × 540매",
+      "price": 208800,
+      "priceFacts": [
+        "최근 평균가 대비 106,286원↓",
+        "1매 약 387원 · 쿠폰 적용 여부 확인"
+      ],
+      "image": "/assets/products/2026-10-06/pampers.webp",
+      "link": "",
+      "affiliate": false
+    },
+    {
+      "id": "cream-milk-lotion",
+      "date": "2026-10-06",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "크림밀크 단백질 산양유 바디로션 화이트머스크향",
+      "configuration": "1.1L × 2개",
+      "price": 15500,
+      "priceFacts": [
+        "최근 평균가 대비 5,225원↓",
+        "100ml당 약 705원"
+      ],
+      "image": "/assets/products/2026-10-06/cream-milk.webp",
+      "link": "https://link.coupang.com/a/hCMIBXkJ4e",
+      "affiliate": true
     }
   ]
 }
