@@ -1,184 +1,112 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "chatUrl": "https://open.kakao.com/o/pnnTCtQi",
   "topDeals": [
-    "리큐 진한겔 하이브리드 드럼 세탁기용 액상세제",
-    "스카치브라이트 옥수수 망사 수세미",
-    "불닭볶음면"
+    "샤워메이트 산양유 비누 플러스",
+    "비비고 한식간장김자반",
+    "맘스럽 아토클래식 물티슈"
   ],
   "products": [
     {
-      "id": "liq",
-      "date": "2026-10-06",
-      "status": "buy",
-      "midnightOpen": false,
+      "id": "soap",
+      "name": "샤워메이트 산양유 비누 플러스",
+      "configuration": "90g × 12개",
+      "price": 6070,
       "platform": "coupang",
-      "name": "리큐 진한겔 하이브리드 드럼 세탁기용 액상세제",
-      "configuration": "플로럴 부케향 리필 · 2.1L × 4개",
-      "price": 12470,
+      "link": "https://link.coupang.com/a/hC87eVYPSu",
       "priceFacts": [
-        "100ml당 약 148원",
-        "11번가 21,890원 · 9,420원↓"
+        "개당 약 506원",
+        "네이버 10,800원 · 4,730원↓"
       ],
-      "image": "/assets/products/2026-10-06/liq.webp",
-      "link": "https://link.coupang.com/a/hBnN9RsWku",
-      "affiliate": true
+      "image": "/assets/products/2026-10-07/soap.webp",
+      "date": "2026-10-07",
+      "status": "buy",
+      "affiliate": true,
+      "midnightOpen": false
     },
     {
-      "id": "baekseolgi",
-      "date": "2026-10-06",
-      "status": "buy",
-      "midnightOpen": false,
+      "id": "wipes",
+      "name": "맘스럽 아토클래식 물티슈",
+      "configuration": "100매 × 20팩",
+      "price": 8253,
       "platform": "toss",
-      "name": "설기명가 우유백설기",
-      "configuration": "45g × 20개",
-      "price": 6900,
+      "link": "https://toss.shopping/_m/LQQD2wUj",
       "priceFacts": [
-        "1개 약 345원"
+        "토스 캡처 할인 가격 · 1팩 약 413원"
       ],
-      "image": "/assets/products/2026-10-06/baekseolgi.webp",
-      "link": "https://toss.shopping/_m/XYi806Fs",
-      "affiliate": true
+      "image": "/assets/products/2026-10-07/wipes.webp",
+      "date": "2026-10-07",
+      "status": "buy",
+      "affiliate": true,
+      "midnightOpen": false
     },
     {
-      "id": "scotchbrite",
-      "date": "2026-10-06",
-      "status": "buy",
-      "midnightOpen": false,
-      "platform": "coupang",
-      "name": "스카치브라이트 옥수수 망사 수세미",
-      "configuration": "9개입",
-      "price": 8900,
-      "priceFacts": [
-        "1개 약 989원",
-        "G마켓 16,900원 · 8,000원↓"
-      ],
-      "image": "/assets/products/2026-10-06/scotchbrite.webp",
-      "link": "https://link.coupang.com/a/hBnoH1K5Ho/?style=kakao_existing_ui",
-      "affiliate": false
-    },
-    {
-      "id": "buldak",
-      "date": "2026-10-06",
-      "status": "buy",
-      "midnightOpen": false,
-      "platform": "coupang",
-      "name": "불닭볶음면",
-      "configuration": "140g × 20개",
-      "price": 14810,
-      "priceFacts": [
-        "1봉 약 741원",
-        "네이버 20,400원 · 5,590원↓"
-      ],
-      "image": "/assets/products/2026-10-06/buldak.webp",
-      "link": "https://link.coupang.com/a/hBohbN08R2",
-      "affiliate": true
-    },
-    {
-      "id": "lux",
-      "date": "2026-10-06",
-      "status": "buy",
-      "midnightOpen": false,
-      "platform": "coupang",
-      "name": "LUX 럭스 슈퍼 리치 크리스탈 헤어마스크",
-      "configuration": "180g × 2개",
-      "price": 12790,
-      "priceFacts": [
-        "1개 약 6,395원",
-        "화면 평균가 대비 약 3,792원↓"
-      ],
-      "image": "/assets/products/2026-10-06/lux.webp",
-      "link": "https://link.coupang.com/a/hBnZWcC2to",
-      "affiliate": true
-    },
-    {
-      "id": "spam",
-      "date": "2026-10-06",
-      "status": "buy",
-      "midnightOpen": false,
+      "id": "macaron",
+      "name": "널담 뚱카롱 두바이 초코에디션",
+      "configuration": "50g × 8봉",
+      "price": 7900,
       "platform": "toss",
-      "name": "CJ제일제당 스팸 클래식",
-      "configuration": "340g × 10캔",
-      "price": 33900,
+      "link": "https://toss.shopping/_m/LOLcTQF4",
       "priceFacts": [
-        "1캔 3,390원",
-        "화면 할인율 44%"
+        "토스 선착순특가 캡처 · 1개 약 988원"
       ],
-      "image": "/assets/products/2026-10-06/spam.webp",
-      "link": "https://toss.shopping/_m/t1ZmLkb6",
-      "affiliate": true
+      "image": "/assets/products/2026-10-07/macaron.webp",
+      "date": "2026-10-07",
+      "status": "buy",
+      "affiliate": true,
+      "midnightOpen": false
     },
     {
-      "id": "broth",
-      "date": "2026-10-06",
-      "status": "buy",
-      "midnightOpen": false,
+      "id": "neoflam",
+      "name": "네오플램 코모도 내열유리 직사각 밀폐용기",
+      "configuration": "600ml × 4개",
+      "price": 13980,
       "platform": "coupang",
-      "name": "강고집 육수한포",
-      "configuration": "80g × 2개",
-      "price": 10500,
+      "link": "https://link.coupang.com/a/hC9db5fE96",
       "priceFacts": [
-        "네이버 15,000원 · 4,500원↓",
-        "G마켓 15,680원 · 5,180원↓"
+        "캡처 최근 2개월 최저점 · 개당 3,495원"
       ],
-      "image": "/assets/products/2026-10-06/broth.webp",
-      "link": "https://link.coupang.com/a/hBn4NUYGZ2",
-      "affiliate": true
+      "image": "/assets/products/2026-10-07/neoflam.webp",
+      "date": "2026-10-07",
+      "status": "buy",
+      "affiliate": true,
+      "midnightOpen": false
     },
     {
-      "id": "powerade",
-      "date": "2026-10-06",
-      "status": "buy",
-      "midnightOpen": false,
-      "platform": "coupang",
-      "name": "파워에이드 마운틴 블라스트",
-      "configuration": "600ml × 20병",
-      "price": 17490,
+      "id": "eyemask",
+      "name": "곰도리 케어 플러스 온열안대",
+      "configuration": "40매 × 1개",
+      "price": 7980,
+      "platform": "toss",
+      "link": "https://toss.shopping/_m/PlCpLjqh",
       "priceFacts": [
-        "1병 약 875원",
-        "11번가 21,900원 · 4,410원↓"
+        "토스 캡처 할인 가격 · 1매 약 200원"
       ],
-      "image": "/assets/products/2026-10-06/powerade.webp",
-      "link": "https://link.coupang.com/a/hBn7HfXaeG",
-      "affiliate": true
+      "image": "/assets/products/2026-10-07/eyemask.webp",
+      "date": "2026-10-07",
+      "status": "buy",
+      "affiliate": true,
+      "midnightOpen": false
     },
     {
-      "id": "pepsi",
-      "date": "2026-10-06",
-      "status": "buy",
-      "midnightOpen": false,
-      "platform": "coupang",
-      "name": "펩시 엑스트라 피즈",
-      "configuration": "355ml × 24캔",
-      "price": 14020,
+      "id": "nurungji",
+      "name": "달콤바삭 찹쌀누룽지",
+      "configuration": "520g × 2팩",
+      "price": 6990,
+      "platform": "toss",
+      "link": "https://toss.shopping/_m/zucJRM5C",
       "priceFacts": [
-        "1캔 약 584원",
-        "100ml당 약 165원"
+        "토스 캡처 할인 가격 · 총 1.04kg"
       ],
-      "image": "/assets/products/2026-10-06/pepsi.webp",
-      "link": "https://link.coupang.com/a/hBocyiviw0",
-      "affiliate": true
-    },
-    {
-      "id": "haneulbori",
-      "date": "2026-10-06",
+      "image": "/assets/products/2026-10-07/nurungji.webp",
+      "date": "2026-10-07",
       "status": "buy",
-      "midnightOpen": false,
-      "platform": "coupang",
-      "name": "하늘보리 에코 무라벨",
-      "configuration": "1.5L × 12병",
-      "price": 11970,
-      "priceFacts": [
-        "1병 약 998원",
-        "G마켓 14,320원 · 2,350원↓"
-      ],
-      "image": "/assets/products/2026-10-06/haneulbori.webp",
-      "link": "https://link.coupang.com/a/hBoftw6T5o",
-      "affiliate": true
+      "affiliate": true,
+      "midnightOpen": false
     },
     {
       "id": "tp-byeotkkot",
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "status": "buy",
       "midnightOpen": false,
       "platform": "coupang",
@@ -195,7 +123,7 @@
     },
     {
       "id": "bibigo-gim",
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "status": "buy",
       "midnightOpen": false,
       "platform": "coupang",
@@ -212,7 +140,7 @@
     },
     {
       "id": "elastine-signature",
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "status": "buy",
       "midnightOpen": false,
       "platform": "coupang",
@@ -229,7 +157,7 @@
     },
     {
       "id": "chapssal-pie",
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "status": "buy",
       "midnightOpen": false,
       "platform": "coupang",
@@ -246,7 +174,7 @@
     },
     {
       "id": "pampers-airchacha",
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "status": "buy",
       "midnightOpen": false,
       "platform": "coupang",
@@ -263,7 +191,7 @@
     },
     {
       "id": "cream-milk-lotion",
-      "date": "2026-10-06",
+      "date": "2026-10-07",
       "status": "buy",
       "midnightOpen": false,
       "platform": "coupang",
