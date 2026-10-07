@@ -2,9 +2,9 @@
   "date": "2026-10-07",
   "chatUrl": "https://open.kakao.com/o/pnnTCtQi",
   "topDeals": [
-    "샤워메이트 산양유 비누 플러스",
-    "비비고 한식간장김자반",
-    "맘스럽 아토클래식 물티슈"
+    "라라스윗 말차 아이스밀크",
+    "에스트라 아토베리어 365 하이드로 수딩크림",
+    "스프라이트 제로 250ml 30개"
   ],
   "products": [
     {
@@ -204,6 +204,108 @@
       ],
       "image": "/assets/products/2026-10-06/cream-milk.webp",
       "link": "https://link.coupang.com/a/hCMIBXkJ4e",
+      "affiliate": true
+    },
+    {
+      "id": "lalasweet-matcha",
+      "date": "2026-10-07",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "라라스윗 말차 아이스밀크",
+      "configuration": "474ml × 1개",
+      "price": 4630,
+      "priceFacts": [
+        "G마켓 12,700원 · 8,070원↓",
+        "11번가 13,400원 · 8,770원↓"
+      ],
+      "image": "/assets/products/2026-10-07/lalasweet.webp",
+      "link": "https://link.coupang.com/a/hD3Wi5AWHd",
+      "affiliate": true
+    },
+    {
+      "id": "aestura-soothing",
+      "date": "2026-10-07",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "에스트라 아토베리어 365 하이드로 수딩크림",
+      "configuration": "80ml × 1개",
+      "price": 15780,
+      "priceFacts": [
+        "네이버 20,950원 · 5,170원↓",
+        "G마켓 22,720원 · 6,940원↓"
+      ],
+      "image": "/assets/products/2026-10-07/aestura.webp",
+      "link": "https://link.coupang.com/a/hD5CrNa8vQ",
+      "affiliate": true
+    },
+    {
+      "id": "sprite-zero-30",
+      "date": "2026-10-07",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "스프라이트 제로 250ml 30개",
+      "configuration": "250ml × 30캔",
+      "price": 11980,
+      "priceFacts": [
+        "네이버 16,400원 · 4,420원↓",
+        "G마켓 18,040원 · 6,060원↓"
+      ],
+      "image": "/assets/products/2026-10-07/sprite.webp",
+      "link": "https://link.coupang.com/a/hD5EQee9ng",
+      "affiliate": true
+    },
+    {
+      "id": "airscape-draintrap",
+      "date": "2026-10-07",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "에어스케이프 끝판왕 하수구트랩",
+      "configuration": "1개",
+      "price": 17280,
+      "priceFacts": [
+        "G마켓 22,910원 · 5,630원↓",
+        "11번가 24,900원 · 7,620원↓"
+      ],
+      "image": "/assets/products/2026-10-07/draintrap.webp",
+      "link": "https://link.coupang.com/a/hD5L8DITMy",
+      "affiliate": true
+    },
+    {
+      "id": "persil-discs",
+      "date": "2026-10-07",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "퍼실 뉴 디스크 라벤더 플러스 캡슐세제",
+      "configuration": "26개입 × 3개",
+      "price": 29520,
+      "priceFacts": [
+        "총 78개",
+        "1개 약 378원"
+      ],
+      "image": "/assets/products/2026-10-07/persil.webp",
+      "link": "https://link.coupang.com/a/hD5OYvxdDw",
+      "affiliate": true
+    },
+    {
+      "id": "liq-moraxella-capsule",
+      "date": "2026-10-07",
+      "status": "buy",
+      "midnightOpen": false,
+      "platform": "coupang",
+      "name": "리큐 모락셀라 악취케어 실내건조 캡슐세제",
+      "configuration": "40개입 × 2개",
+      "price": 14850,
+      "priceFacts": [
+        "총 80개",
+        "1개 약 186원"
+      ],
+      "image": "/assets/products/2026-10-07/liqcapsule.webp",
+      "link": "https://link.coupang.com/a/hD5R3bnmSG",
       "affiliate": true
     }
   ]
