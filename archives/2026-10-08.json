@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-08",
+  "chatUrl": "https://open.kakao.com/o/pnnTCtQi",
+  "topDeals": [
+    "롯데자일리톨 알파 오리지날껌 리필",
+    "올반 키친 찹쌀 꿔바로우",
+    "리베로 터치 밴드형 기저귀 남여공용 6단계"
+  ],
+  "products": [
+    {
+      "id": "xylitol-alpha",
+      "name": "롯데자일리톨 알파 오리지날껌 리필",
+      "configuration": "102g × 2개",
+      "price": 4460,
+      "platform": "coupang",
+      "link": "https://link.coupang.com/a/hGfIJZZkFE",
+      "priceFacts": [
+        "G마켓 9,550원 · 5,090원↓",
+        "11번가 9,850원 · 5,390원↓"
+      ],
+      "image": "/assets/products/2026-10-08/xylitol.svg",
+      "date": "2026-10-08",
+      "status": "buy",
+      "affiliate": true,
+      "midnightOpen": false
+    },
+    {
+      "id": "olban-guobaorou",
+      "name": "올반 키친 찹쌀 꿔바로우",
+      "configuration": "500g × 1개",
+      "price": 6880,
+      "platform": "coupang",
+      "link": "https://www.coupang.com/vp/products/6273266356",
+      "priceFacts": [
+        "네이버 12,980원 · 6,100원↓",
+        "100g당 1,376원"
+      ],
+      "image": "/assets/products/2026-10-08/cuoba.svg",
+      "date": "2026-10-08",
+      "status": "buy",
+      "affiliate": false,
+      "midnightOpen": false
+    },
+    {
+      "id": "libero-touch-6",
+      "name": "리베로 터치 밴드형 기저귀 남여공용 6단계",
+      "configuration": "108매",
+      "price": 42600,
+      "platform": "coupang",
+      "link": "https://link.coupang.com/a/hGfX6yfC8W",
+      "priceFacts": [
+        "최근 2개월 최저가 42,600원",
+        "평균가 대비 13,271원↓ · 1매 약 394원"
+      ],
+      "image": "/assets/products/2026-10-08/libero.svg",
+      "date": "2026-10-08",
+      "status": "buy",
+      "affiliate": true,
+      "midnightOpen": false
+    },
+    {
+      "id": "polham-fleece",
+      "name": "폴햄 남녀공용 플러피 하이넥 집업",
+      "configuration": "M(95)",
+      "price": 12320,
+      "platform": "coupang",
+      "link": "https://link.coupang.com/a/hGfSLrSDC0",
+      "priceFacts": [
+        "최근 2개월 최저가 12,320원",
+        "평균가 대비 5,396원↓"
+      ],
+      "image": "/assets/products/2026-10-08/fleece.svg",
+      "date": "2026-10-08",
+      "status": "buy",
+      "affiliate": true,
+      "midnightOpen": false
+    },
+    {
+      "id": "pocachip-yellow-cheese",
+      "name": "포카칩 오리온 황치즈",
+      "configuration": "60g × 3개",
+      "price": 6000,
+      "platform": "coupang",
+      "link": "https://link.coupang.com/a/hGfNnamZmm",
+      "priceFacts": [
+        "최근 2개월 최저가 6,000원",
+        "평균가 대비 1,810원↓ · 10g당 약 333원"
+      ],
+      "image": "/assets/products/2026-10-08/yellow-cheese.svg",
+      "date": "2026-10-08",
+      "status": "buy",
+      "affiliate": true,
+      "midnightOpen": false
+    },
+    {
+      "id": "pulmuone-tofu-sushi",
+      "name": "풀무원 새콤달콤 국산콩 두부로 만든 유부초밥",
+      "configuration": "330g × 1봉",
+      "price": 3990,
+      "platform": "coupang",
+      "link": "https://link.coupang.com/a/hGfPYStDyu",
+      "priceFacts": [
+        "캡처 기준 47% 할인 표시",
+        "4인분 구성 · 1인분 약 998원"
+      ],
+      "image": "/assets/products/2026-10-08/tofu-sushi.svg",
+      "date": "2026-10-08",
+      "status": "buy",
+      "affiliate": true,
+      "midnightOpen": false
+    },
+    {
+      "id": "denmark-take-alive",
+      "name": "덴마크 테이크얼라이브 머스캣청포도+망고",
+      "configuration": "120ml × 48개",
+      "price": 11900,
+      "platform": "toss",
+      "link": "https://toss.shopping/_m/VNQkSRrt",
+      "priceFacts": [
+        "캡처 기준 40% 할인 표시",
+        "1개 약 248원"
+      ],
+      "image": "/assets/products/2026-10-08/denmark.svg",
+      "date": "2026-10-08",
+      "status": "buy",
+      "affiliate": true,
+      "midnightOpen": false
+    },
+    {
+      "id": "imeco-water",
+      "name": "아임에코 가벼운샘 생수",
+      "configuration": "1L × 12개",
+      "price": 3600,
+      "platform": "toss",
+      "link": "https://toss.shopping/_m/Hm7i1s11",
+      "priceFacts": [
+        "캡처 기준 48% 할인 표시",
+        "1L 한 병 약 300원"
+      ],
+      "image": "/assets/products/2026-10-08/water.svg",
+      "date": "2026-10-08",
+      "status": "buy",
+      "affiliate": true,
+      "midnightOpen": false
+    },
+    {
+      "id": "ozland-potato-stick",
+      "name": "오즈랜드 리얼 생감자스틱",
+      "configuration": "20g × 18봉",
+      "price": 7900,
+      "platform": "toss",
+      "link": "https://toss.shopping/_m/7KsFRN4c",
+      "priceFacts": [
+        "캡처 기준 50% 할인 표시",
+        "1봉 약 439원"
+      ],
+      "image": "/assets/products/2026-10-08/potato.svg",
+      "date": "2026-10-08",
+      "status": "buy",
+      "affiliate": true,
+      "midnightOpen": false
+    }
+  ]
+}
