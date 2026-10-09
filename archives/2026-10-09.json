@@ -227,6 +227,23 @@
       "status": "buy",
       "affiliate": true,
       "midnightOpen": false
+    },
+    {
+      "id": "pulmuone-kimchi-udon",
+      "name": "풀무원 가락 김치우동",
+      "configuration": "2인분",
+      "price": 3740,
+      "platform": "coupang",
+      "link": "https://link.coupang.com/a/hHRGif6YH6",
+      "priceFacts": [
+        "캡처 기준 3,740원",
+        "2인분 구성 · 1인분 약 1,870원"
+      ],
+      "image": "/assets/products/2026-10-09/kimchiudon.jpg",
+      "date": "2026-10-09",
+      "status": "buy",
+      "affiliate": false,
+      "midnightOpen": false
     }
   ]
 }
