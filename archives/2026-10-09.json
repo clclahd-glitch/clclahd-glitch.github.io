@@ -1,0 +1,232 @@
+{
+  "date": "2026-10-09",
+  "chatUrl": "https://open.kakao.com/o/pnnTCtQi",
+  "topDeals": [
+    "오뚜기 실쏙 얇은피 잎새만두 고기",
+    "풀무원 모짜렐라 핫도그",
+    "남양유업 불가리스 요거트 딸기 8개입"
+  ],
+  "products": [
+    {
+      "id": "ottogi-thin-mandu",
+      "name": "오뚜기 실쏙 얇은피 잎새만두 고기",
+      "configuration": "1.5kg × 1개",
+      "price": 8490,
+      "platform": "coupang",
+      "link": "https://link.coupang.com/a/hHHgtdeG5c",
+      "priceFacts": [
+        "최근 2개월 최저가 8,490원",
+        "평균가 대비 6,820원↓ · 100g당 약 566원"
+      ],
+      "image": "/assets/products/2026-10-09/mandu.jpg",
+      "date": "2026-10-09",
+      "status": "buy",
+      "affiliate": true,
+      "midnightOpen": false
+    },
+    {
+      "id": "pulmuone-mozzarella-hotdog",
+      "name": "풀무원 모짜렐라 핫도그",
+      "configuration": "80g × 9개",
+      "price": 9530,
+      "platform": "coupang",
+      "link": "https://link.coupang.com/a/hHHjYRq0ku",
+      "priceFacts": [
+        "네이버 16,650원 · 7,120원↓",
+        "최근 2개월 최저가 9,530원"
+      ],
+      "image": "/assets/products/2026-10-09/hotdog.jpg",
+      "date": "2026-10-09",
+      "status": "buy",
+      "affiliate": true,
+      "midnightOpen": false
+    },
+    {
+      "id": "namyang-bulgaris-strawberry",
+      "name": "남양유업 불가리스 요거트 딸기 8개입",
+      "configuration": "640g · 8개입",
+      "price": 2990,
+      "platform": "coupang",
+      "link": "https://link.coupang.com/a/hHHm47Fd0K",
+      "priceFacts": [
+        "최근 2개월 최저가 2,990원",
+        "평균가 대비 2,766원↓"
+      ],
+      "image": "/assets/products/2026-10-09/bulgaris.jpg",
+      "date": "2026-10-09",
+      "status": "buy",
+      "affiliate": true,
+      "midnightOpen": false
+    },
+    {
+      "id": "demarlin-zero-applemango",
+      "name": "자연은 더말린 제로 애플망고",
+      "configuration": "500ml × 20개",
+      "price": 12320,
+      "platform": "coupang",
+      "link": "https://link.coupang.com/a/hHHpQRIw1Y",
+      "priceFacts": [
+        "11번가 16,640원 · 4,320원↓",
+        "네이버 17,000원 · 4,680원↓"
+      ],
+      "image": "/assets/products/2026-10-09/applemango.jpg",
+      "date": "2026-10-09",
+      "status": "buy",
+      "affiliate": true,
+      "midnightOpen": false
+    },
+    {
+      "id": "animal-welfare-eggs-15",
+      "name": "난각1번 유정마을 동물복지 방사유정란",
+      "configuration": "780g · 15구",
+      "price": 8700,
+      "platform": "coupang",
+      "link": "https://www.coupang.com/vp/products/8284040637",
+      "priceFacts": [
+        "최근 2개월 최저가 8,700원",
+        "평균가 대비 3,599원↓ · 1구 약 580원"
+      ],
+      "image": "/assets/products/2026-10-09/eggs.jpg",
+      "date": "2026-10-09",
+      "status": "buy",
+      "affiliate": false,
+      "midnightOpen": false
+    },
+    {
+      "id": "desimone-babystep2",
+      "name": "드시모네 프로바이오틱스 베이비스텝2",
+      "configuration": "30p · 30g",
+      "price": 26740,
+      "platform": "coupang",
+      "link": "https://link.coupang.com/a/hHHvCrAqvQ",
+      "priceFacts": [
+        "네이버 33,600원 · 6,860원↓",
+        "G마켓 42,240원 · 15,500원↓"
+      ],
+      "image": "/assets/products/2026-10-09/desimone.jpg",
+      "date": "2026-10-09",
+      "status": "buy",
+      "affiliate": true,
+      "midnightOpen": false
+    },
+    {
+      "id": "otel-bratwurst",
+      "name": "오뗄 보그부어스트 소시지",
+      "configuration": "160g × 2개",
+      "price": 4980,
+      "platform": "coupang",
+      "link": "https://link.coupang.com/a/hHHyA4b5sj",
+      "priceFacts": [
+        "최근 2개월 최저가 4,980원",
+        "평균가 대비 1,987원↓ · 10g당 약 156원"
+      ],
+      "image": "/assets/products/2026-10-09/sausage.jpg",
+      "date": "2026-10-09",
+      "status": "buy",
+      "affiliate": true,
+      "midnightOpen": false
+    },
+    {
+      "id": "essenherb-teatree100",
+      "name": "에센허브 티트리 100 오일",
+      "configuration": "10ml × 1개",
+      "price": 11120,
+      "platform": "coupang",
+      "link": "https://link.coupang.com/a/hHHBd2At2W",
+      "priceFacts": [
+        "네이버 17,100원 · 5,980원↓",
+        "11번가 23,860원 · 12,740원↓"
+      ],
+      "image": "/assets/products/2026-10-09/teatree.jpg",
+      "date": "2026-10-09",
+      "status": "buy",
+      "affiliate": true,
+      "midnightOpen": false
+    },
+    {
+      "id": "ecover-allinone",
+      "name": "에코버 올인원 식기세척기세제",
+      "configuration": "440g × 1개",
+      "price": 10970,
+      "platform": "coupang",
+      "link": "https://link.coupang.com/a/hHHEeEx2wS",
+      "priceFacts": [
+        "최근 2개월 최저가 10,970원",
+        "평균가 대비 4,941원↓"
+      ],
+      "image": "/assets/products/2026-10-09/ecover.jpg",
+      "date": "2026-10-09",
+      "status": "buy",
+      "affiliate": true,
+      "midnightOpen": false
+    },
+    {
+      "id": "labccin-v3-spray",
+      "name": "랩신 V3 항균 스프레이 살균제",
+      "configuration": "410ml × 2개",
+      "price": 10930,
+      "platform": "coupang",
+      "link": "https://link.coupang.com/a/hHHHVWfSJE",
+      "priceFacts": [
+        "G마켓 최저 17,690원 · 6,760원↓",
+        "100ml당 약 1,333원"
+      ],
+      "image": "/assets/products/2026-10-09/labccin.jpg",
+      "date": "2026-10-09",
+      "status": "buy",
+      "affiliate": true,
+      "midnightOpen": false
+    },
+    {
+      "id": "fresh-shrimp-900",
+      "name": "팜앤푸드 꼬리 자른 생새우살 61~70입",
+      "configuration": "900g × 1개",
+      "price": 13990,
+      "platform": "coupang",
+      "link": "https://link.coupang.com/a/hHHKoj55s4",
+      "priceFacts": [
+        "최근 2개월 최저가 13,990원",
+        "평균가 대비 4,435원↓ · 100g당 약 1,554원"
+      ],
+      "image": "/assets/products/2026-10-09/shrimp.jpg",
+      "date": "2026-10-09",
+      "status": "buy",
+      "affiliate": true,
+      "midnightOpen": false
+    },
+    {
+      "id": "galbae-cider-zero",
+      "name": "해태htb 갈배사이다 제로",
+      "configuration": "355ml × 24캔",
+      "price": 10000,
+      "platform": "coupang",
+      "link": "https://link.coupang.com/a/hHHN6K520y",
+      "priceFacts": [
+        "11번가 12,500원 · 2,500원↓",
+        "네이버 13,360원 · 3,360원↓ · 1캔 약 417원"
+      ],
+      "image": "/assets/products/2026-10-09/galbae.jpg",
+      "date": "2026-10-09",
+      "status": "buy",
+      "affiliate": true,
+      "midnightOpen": false
+    },
+    {
+      "id": "metchnikoff-apple",
+      "name": "메치니코프 플레인 사과 요구르트",
+      "configuration": "140ml × 8개",
+      "price": 3920,
+      "platform": "coupang",
+      "link": "https://link.coupang.com/a/hHHQRSO99M",
+      "priceFacts": [
+        "최근 2개월 최저가 3,920원",
+        "평균가 대비 3,466원↓ · 1개 약 490원"
+      ],
+      "image": "/assets/products/2026-10-09/metchnikoff.jpg",
+      "date": "2026-10-09",
+      "status": "buy",
+      "affiliate": true,
+      "midnightOpen": false
+    }
+  ]
+}
